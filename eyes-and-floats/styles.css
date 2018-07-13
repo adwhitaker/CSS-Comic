@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+* + * {
+    margin-left: 1em;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.head {
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    margin: 10px auto 0;
+    border-bottom: none;
+    padding-top: 20px;
+}
+
+.eye {
+    height: 15px;
+    width: 15px;
+    background: black;
+    display: inline-block;
+}
+
+.mouth {
+    border: 1px solid black;
+    width: 80%;
+    margin: 40px auto 0;
+}
+
+.body {
+    width: 95%;
+    border: 3px solid black;
+    border-bottom: none;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.panel2 {
+    padding: 1em;
+}
+.panel2 div + div {
+    margin: 0;
+}
+
+.panel2 div.indent {
+    margin-left: 2em;
+}
+
+.panel3 .left-eye {
+    float: left;
+}
+
+.panel3 .right-eye {
+    float: right;
+}
