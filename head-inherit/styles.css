@@ -1,0 +1,20 @@
+.eyes {
+    display: flex;
+    justify-content: center;
+}
+
+.panel2 {
+    padding: 1em;
+}
+
+.panel2 div + div {
+    margin: 0;
+}
+
+.panel2 div.indent {
+    margin-left: 2em;
+}
+
+.panel3 .head {
+    height: inherit;
+}
