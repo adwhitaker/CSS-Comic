@@ -1,0 +1,41 @@
+.panel2 {
+    padding: 2em;
+}
+.panel2 > div {
+    background: url('./ie.png') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.panel3 .mouth {
+    position: relative;
+    left: -102px;
+    border-color: darkred;
+}
+
+.panel3 .left-eye {
+    margin-left: 5px;
+    background-color: green;
+}
+
+.panel3 .right-eye {
+    position: relative;
+    top: 50px;
+    background: lightcoral;
+}
+
+.panel3 .head {
+    position: relative;
+    top: 50px;
+    width: 200%;
+    left: 50px;
+    border-color: purple;
+}
+
+.panel3 .body {
+    position: relative;
+    top: 45px;
+    border-color: steelblue;
+}
